@@ -1,0 +1,9 @@
+---
+- name: Pull docker image of the Calculator
+  hosts: all
+  tasks:
+    - name: pull docker image
+      shell: docker pull coolgopalgoyal/minirpojectcalculator048
+
+    - name: running container
+      shell: docker run --name gopi -it -d coolgopalgoyal/minirpojectcalculator048 /bin/bash
