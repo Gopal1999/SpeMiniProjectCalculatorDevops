@@ -6,4 +6,4 @@
       shell: docker pull coolgopalgoyal/minirpojectcalculator048
 
     - name: running container
-      shell: docker run --name gopi -it -d coolgopalgoyal/minirpojectcalculator048 /bin/bash
+      shell: docker run --name miniproject -it -d coolgopalgoyal/minirpojectcalculator048 /bin/bash
