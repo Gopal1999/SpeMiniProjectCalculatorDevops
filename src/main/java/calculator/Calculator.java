@@ -118,5 +118,5 @@ public class Calculator
         { facto *= i;   }
         return  facto;
     }
-    //Gopal
+    
 }
