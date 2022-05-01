@@ -9,4 +9,4 @@
       shell: docker run --name miniproject -d coolgopalgoyal/minirpojectcalculator048 
       
     - name: running jar file
-      shell: docker exec -it miniproject java -jar MiniDevopsCalculator-1.0-SNAPSHOT-jar-with-dependencies.jar
+      shell: docker exec -it miniproject java -jar MiniDevopsCalculator-1.0-SNAPSHOT-jar-with-dependencies.jar bash
