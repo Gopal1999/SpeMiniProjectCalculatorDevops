@@ -1,1 +1,1 @@
-# SpeMiniProjectCalculatorDevops
+# SPEMiniProjectCalculatorDevops
