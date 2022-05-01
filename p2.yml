@@ -6,4 +6,7 @@
       shell: docker pull coolgopalgoyal/minirpojectcalculator048
 
     - name: running container
-      shell: docker run --name miniproject -it -d coolgopalgoyal/minirpojectcalculator048 /bin/bash
+      shell: docker run --name miniproject -d coolgopalgoyal/minirpojectcalculator048 
+      
+    - name: running jar file
+      shell: docker exec -it miniproject java -jar MiniDevopsCalculator-1.0-SNAPSHOT-jar-with-dependencies.jar
